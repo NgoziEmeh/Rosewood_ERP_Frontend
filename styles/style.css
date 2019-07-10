@@ -351,18 +351,19 @@ input, textarea, button{
 /* Space */
 .space{
     width: 100%;
-    height: 3vh;
+    height: 2vh;
     background-color: whitesmoke;
 }
 /* footer */
 footer{
     width: 100%;
     height: 10vh;
-    background-color: darkred;
+    background-color: black;
 }
 .socialicons i{
     background-color: whitesmoke;
-    padding: 0.8rem;
+    padding: 0.5rem;
     border-radius: 50%;
-    margin: auto;
+    margin: 0.8rem 0.5rem;
+    color: black;
 }

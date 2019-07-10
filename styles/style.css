@@ -132,8 +132,8 @@ ul li a:hover{
 }
 /* Yellow wine */
 .yellowwine{
-    width: 100%;
-    height: 80vh;
+    /* width: 100%; */
+    height: 100%;
     display: flex;
 }
 .yellowrightwords{
@@ -157,8 +157,8 @@ ul li a:hover{
 */
 /* merlot */
 .merlot{
-    width: 100%;
-    height: 80vh;
+    /* width: 100%; */
+    height: 100%;
     display: flex;
 }
 .merlotleftwords{
@@ -175,8 +175,8 @@ ul li a:hover{
 }
 /* Cabernet */
 .cabernet{
-    width: 100%;
-    height: 80vh;
+    /* width: 100%; */
+    height: 100%;
     display: flex;
 }
 .cabernetrightwords{
@@ -292,25 +292,77 @@ ul li a:hover{
 .contact{
     width: 100%;
     height: 100%;
-    background-color: burlywood;
+    background-color: black;
 }
 .contacttitle{
     width: 100%;
-    height: 16vh;
+    height: 6vh;
     /* font-weight: bold; */
     text-align: center;
+    background-color: whitesmoke;
 }
 .contactcontainer{
     width: 100%;
-    height: 16vh;
+    height: 100%;
     display: flex;
+    
 }
 .messageus, .visitus{
     flex: 1;
+}
+.messageus, .messageform{
+    border: whitesmoke 1px bold;
 }
 .messagetitle, .visittitle{
     font-size: 20px;
     font-weight: bold;
     font-style: italic;
     text-align: center;
+    color: whitesmoke;
+}
+.messageform{
+    margin-top: 1rem;
+}
+label{
+    display: block;
+    color: whitesmoke;
+    font-weight: bold;
+}
+input, textarea, button{
+    width: 100%;
+}
+.name, .email, .yourmessage, .messagebtn{
+    margin: 0.2rem 0.5rem;
+}
+
+.callinfo{
+    margin: 2rem 0.5rem;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 2rem;
+    height: 100%;
+}
+/* Map */
+.map{
+    height: 100%; 
+    margin: 2rem 0.5rem;  
+}
+/* Space */
+.space{
+    width: 100%;
+    height: 3vh;
+    background-color: whitesmoke;
+}
+/* footer */
+footer{
+    width: 100%;
+    height: 10vh;
+    background-color: darkred;
+}
+.socialicons i{
+    background-color: whitesmoke;
+    padding: 0.8rem;
+    border-radius: 50%;
+    margin: auto;
 }

@@ -99,8 +99,9 @@ header img{
     .hamburger{
         position: absolute;
         cursor: pointer;
-        right: 5%;
-        top: 20%;
+        /* right: 5%; */
+        top: 50%;
+        transform: translate(-5%, -50%);
     }
     .links{
         background-color: darkred;
@@ -109,7 +110,11 @@ header img{
         width: 100%;
         flex-direction: column;
         display: none;
+        clip-path: circle(100px 90% -10%);
+        -webkit-clip-path: circle(100px 90% -10%);
+        transition: all ease-out;
     }
+    
 }
 /* About us */
 #about{

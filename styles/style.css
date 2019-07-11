@@ -23,17 +23,17 @@ header img{
 
 /* Navigation */
 
-ul{
+.links{
     list-style: none;   
 }
-ul li{
+/* .links li{
     float: left;
     padding: 0.5rem;
     
     
-}
+} */
 
-ul li a{
+.links li a{
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: bold;
@@ -85,7 +85,8 @@ ul li a:hover{
 #about{
     width: 100%;
     height: 100%;
-    background-color: cadetblue;
+    background-color: black;
+    /* background-color: cadetblue; */
        
 }
 
@@ -102,7 +103,7 @@ ul li a:hover{
     text-align: center;
 }
 .btn{
-    width: 15vw;
+    width: 17vw;
     display: block;
     background-color: transparent;
     border: whitesmoke 2px double;
@@ -133,7 +134,7 @@ ul li a:hover{
 /* Yellow wine */
 .yellowwine{
     /* width: 100%; */
-    height: 100%;
+    height: 70vh;
     display: flex;
 }
 .yellowrightwords{
@@ -158,7 +159,7 @@ ul li a:hover{
 /* merlot */
 .merlot{
     /* width: 100%; */
-    height: 100%;
+    height: 70vh;
     display: flex;
 }
 .merlotleftwords{
@@ -176,7 +177,7 @@ ul li a:hover{
 /* Cabernet */
 .cabernet{
     /* width: 100%; */
-    height: 100%;
+    height: 70vh;
     display: flex;
 }
 .cabernetrightwords{
@@ -266,14 +267,14 @@ ul li a:hover{
 }
 .total{
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
+    margin-top: 0; 
 }
 .btn2{
-    background-color: darkred;
+    background-color: grey;
     border: black 1px solid;
-    width: 100px;
-    padding: 0.3rem;
+    padding: 0.2rem;
 }
 .continue{
     text-align: center;
@@ -345,7 +346,7 @@ input, textarea, button{
 }
 /* Map */
 .map{
-    height: 100%; 
+    height: 80vh; 
     margin: 2rem 0.5rem;  
 }
 /* Space */

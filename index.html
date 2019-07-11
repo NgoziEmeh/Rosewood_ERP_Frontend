@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,26 +9,35 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
         integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
     <link rel="stylesheet" href="/styles/style.css">
-    <title>Rosewood wines | Home</title>
+    <title>Rosewood Wines | Home</title>
 </head>
 
 <body>
-    <header>
-        <img src="/img/rosewood_logo.PNG" alt="Rosewood wines" id="logo">
-
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#ourwines">Our Wines</a></li>
-                <li><a href="#order">Bulk Order</a></li>
-                <li><a href="#stores">Retail Selling Points</a></li>
-                <li><a href="#contact">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
     <main>
+        <header>
+            <img src="/img/rosewood_logo.PNG" alt="Rosewood wines" id="logo">
+
+            <nav>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#ourwines">Our Wines</a></li>
+                    <li><a href="#order">Bulk Order</a></li>
+                    <li><a href="#stores">Retail Selling Points</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+
+
+            </nav>
+        </header>
+        <!-- <main> -->
         <section id="landingpage">
+            <img src="/img/circle.svg" alt="healthy wines">
 
             <div class="landpagepara">
                 <p>
@@ -53,6 +63,7 @@
             </div>
 
         </section>
+        <div class="space"></div>
         <section id="about">
             <div class="abouttitle">
                 <h2>ABOUT US</h2>
@@ -60,15 +71,18 @@
             <div class="aboutpara">
                 <p>ROSEWOOD IS NOT A DRINK, IT IS A LIFESTYLE.. Lorem ipsum, dolor sit amet consectetur adipisicing
                     elit. Placeat deserunt iste inventore at magni
-                    dolore, explicabo voluptatem, consectetur possimus nobis sapiente tempore in quo delectus eveniet
+                    dolore, explicabo voluptatem, consectetur possimus nobis sapiente tempore in quo delectus
+                    eveniet
                     adipisci optio nesciunt accusantium!
                     Nostrum amet voluptates eligendi enim dolore asperiores recusandae sint officia at deserunt
                     doloribus saepe dolorum culpa ratione minus, velit suscipit explicabo? Tenetur, necessitatibus
                     deserunt molestiae fugiat fuga officiis doloribus quod.</p>
             </div>
             <div class="aboutpara2">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat deserunt iste inventore at magni
-                    dolore, explicabo voluptatem, consectetur possimus nobis sapiente tempore in quo delectus eveniet
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat deserunt iste inventore at
+                    magni
+                    dolore, explicabo voluptatem, consectetur possimus nobis sapiente tempore in quo delectus
+                    eveniet
                     adipisci optio nesciunt accusantium!
                     Nostrum amet voluptates eligendi enim dolore asperiores recusandae sint officia at deserunt
                     doloribus saepe dolorum culpa ratione minus, velit suscipit explicabo? Tenetur, necessitatibus
@@ -77,7 +91,45 @@
             <a href="#" class="btn">Read more..</a>
 
         </section>
+        <div class="space"></div>
+        <section id="ourwines">
+            <div class="wines">
+                <h2>OUR WINES</h2>
+            </div>
+            <div class="yellowwine">
+                <!-- <img class="yellowdrink" src="/img/captuted_yellowwine.PNG" alt=""> -->
+                <div class="yellowleftpic"></div>
+                <div class="yellowrightwords">
+                    <p class="pyellow">TASTY</p>
+                    <p class="pyellow">HEALTHY</p>
+                    <p class="pyellow">MILD</p>
+                    <p class="pyellow2">Indoor Party + Slow Jams + Asu</p>
+                    <a class="pyellow3" href="#">Have a taste &nbsp; <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+            </div>
+            <div class="merlot">
+                <div class="merlotleftwords">
+                    <p class="pmerlot">STRONGER</p>
+                    <p class="pmerlot">UNIQUE</p>
+                    <p class="pmerlot">CAPTIVATING</p>
+                    <p class="pmerlot2">Beach Party + Hip-hop + Barbecue</p>
+                    <a class="pmerlot3" href="#">Check it out &nbsp; <i class="fas fa-sign-out-alt"></i></a>
+                </div>
+                <div class="merlotrightpic"></div>
 
+            </div>
+            <div class="cabernet">
+                <div class="cabernetleftpic"></div>
+                <div class="cabernetrightwords">
+                    <p class="pcabernet">REFRESHING</p>
+                    <p class="pcabernet">SMOOTH</p>
+                    <p class="pcabernet">EXCITING</p>
+                    <p class="pcabernet2">Events + Friendship + Assorted Food</p>
+                    <a class="pcabernet3" href="#">Try it out &nbsp; <i class="far fa-arrow-alt-circle-right"></i></a>
+                </div>
+            </div>
+        </section>
+        <div class="space"></div>
         <section id="order">
             <div class="ordertitle">
                 <p>ORDER NOW</p>
@@ -128,47 +180,8 @@
                 <a href="http://">Continue</a>
             </div>
         </section>
-
-        <section id="ourwines">
-            <div class="wines">
-                <h2>OUR WINES</h2>
-            </div>
-            <div class="yellowwine">
-                <!-- <img class="yellowdrink" src="/img/captuted_yellowwine.PNG" alt=""> -->
-                <div class="yellowleftpic"></div>
-                <div class="yellowrightwords">
-                    <p class="pyellow">TASTY</p>
-                    <p class="pyellow">HEALTHY</p>
-                    <p class="pyellow">MILD</p>
-                    <p class="pyellow2">Indoor Party + Slow Jams + Asu</p>
-                    <a class="pyellow3" href="#">Have a taste &nbsp; <i class="fas fa-long-arrow-alt-right"></i></a>
-                </div>
-            </div>
-            <div class="merlot">
-                <div class="merlotleftwords">
-                    <p class="pmerlot">STRONGER</p>
-                    <p class="pmerlot">UNIQUE</p>
-                    <p class="pmerlot">CAPTIVATING</p>
-                    <p class="pmerlot2">Beach Party + Hip-hop + Barbecue</p>
-                    <a class="pmerlot3" href="#">Check it out &nbsp; <i class="fas fa-sign-out-alt"></i></a>
-                </div>
-                <div class="merlotrightpic"></div>
-
-            </div>
-            <div class="cabernet">
-                <div class="cabernetleftpic"></div>
-                <div class="cabernetrightwords">
-                    <p class="pcabernet">REFRESHING</p>
-                    <p class="pcabernet">SMOOTH</p>
-                    <p class="pcabernet">EXCITING</p>
-                    <p class="pcabernet2">Events + Friendship + Assorted Food</p>
-                    <a class="pcabernet3" href="#">Try it out &nbsp; <i class="far fa-arrow-alt-circle-right"></i></a>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- <section id="contact" class="contact">
+        <div class="space"></div>
+        <section id="contact" class="contact">
             <div class="contacttitle">
                 <h2>CONTACT US</h2>
             </div>
@@ -181,13 +194,28 @@
                     </div>
                     <div class="messageform">
                         <form action="node">
-
+                            <div class="name">
+                                <label for="name">Name:</label>
+                                <input type="text" name="name" id="name">
+                            </div>
+                            <div class="email">
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" id="email">
+                            </div>
+                            <div class="yourmessage">
+                                <label for="yourmessage">Message:</label>
+                                <textarea name="yourmessage" id="yourmessage" cols="30" rows="10"></textarea>
+                            </div>
+                            <div class="messagebtn">
+                                <button type="submit">Send</button>
+                            </div>
                         </form>
                     </div>
                     <div class="callinfo">
-                        <p>Address: Cornwell Estate, Chevron Drive, Lekki, Lagos.</p>
-                        <p>Email: sales@rosewood.ng</p>
-                        <p>Tel: 0805 555 5012</p>
+                        <p><i class="fas fa-map-marker-alt"></i>&nbsp;:&nbsp; Cornwell Estate, Chevron Drive, Lekki,
+                            Lagos.</p>
+                        <p><i class="fas fa-envelope-square"></i>&nbsp;:&nbsp; sales@rosewood.ng</p>
+                        <p><i class="fas fa-phone-square-alt"></i>&nbsp;:&nbsp; 0805 555 5012</p>
 
                     </div>
                 </div>
@@ -195,23 +223,47 @@
                     <div class="visittitle">
                         <p>Visit Us</p>
                     </div>
-                    <div class="routemap">
-                        map
+                    <div class="map">
                     </div>
                 </div>
             </div>
 
         </section>
+        <div class="space">
+
+        </div>
 
 
- -->
+        <footer>
+            <div class="socialicons">
+                <a href="http://youtube.com" target="_blank" rel="noopener noreferrer"> <i
+                        class="fab fa-youtube-square"></i></a>
+                <a href="http://facebook.com" target="_blank" rel="noopener noreferrer"> <i
+                        class="fab fa-facebook-f"></i></a>
+                <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer"> <i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="http://instagram.com" target="_blank" rel="noopener noreferrer"> <i
+                        class="fab fa-instagram"></i></a>
+                <a href="http://twitter.com" target="_blank" rel="noopener noreferrer"> <i
+                        class="fab fa-twitter"></i></a>
 
+            </div>
+            <div class="otherfooter">
+                <p>Secure payment by &nbsp;:&nbsp;<img src="/img/paystack.jpg" alt="secured payment">
+                    &nbsp;&nbsp;|&nbsp;&nbsp;Copyright &copy;2019 Rosewood
+                    Wines.&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://github.com/NgoziEmeh" target="_blank">Site by
+                        HER</a> </p>
+            </div>
 
+        </footer>
     </main>
-    <footer>
-        <p>copy right on footer</p>
+    <!-- Local JS file -->
+    <script src="main.js"></script>
 
-    </footer>
+    <!-- Google map -->
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCasA8yMwJCuwuLxH8ejdMBLSjAoqmqlz8&callback=initMap"
+        type="text/javascript"></script>
 </body>
 
 </html>

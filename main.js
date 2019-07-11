@@ -14,3 +14,15 @@ function initMap() {
         position: loc, map: map
     });
 }
+// Nav hamburger
+
+const hamburger = document.querySelector(".hamburger");
+const navigationLinks = document.querySelector(".links");
+const singleLink = document.querySelectorAll(".links li");
+
+hamburger.addEventListener('click', () => {
+    navigationLinks.classList.toggle("open");
+    singleLink.forEach(link => {
+        link.classList.toggle("fade");
+    });
+});

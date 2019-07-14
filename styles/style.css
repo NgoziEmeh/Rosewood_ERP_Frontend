@@ -345,12 +345,16 @@ nav{
 }
 .productqty{
     font-weight: bold;
+   
+}
+.productqty label{
+    color: black; 
 }
 .total{
     text-align: center;
     font-size: 20px;
     font-weight: bold;
-    margin-top: 0; 
+    margin-top: 10px; 
 }
 .btn2{
     background-color: grey;
@@ -362,13 +366,14 @@ nav{
 }
 .continue a{
     text-decoration: none;
-    background-color: darkred;
+    background-color: #4b155a;
     border: #0d0d0f 1px solid;
     font-size: 20px;
     font-weight: bold;
-    color: black;
+    color: whitesmoke;
     padding: 0.3rem 0.5rem;
     line-height: 5rem;
+    cursor: pointer;
 }
 /* Contact */
 .contact{
@@ -449,6 +454,7 @@ footer{
     margin: 0.8rem 0.5rem;
     color: black;
 }
+
 .otherfooter p{
     color: whitesmoke;
     margin: 0.8rem 0.5rem;

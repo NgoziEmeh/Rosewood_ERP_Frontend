@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
+
 /* Header */
 header{
     width: 100%;
@@ -114,7 +116,7 @@ nav{
     .links{
         background-color: darkred;
         position: fixed;
-        height: 100vh;
+        height: 50vh;
         width: 100%;
         flex-direction: column;
         clip-path: circle(100px at 90% -10%);
@@ -224,7 +226,7 @@ nav{
     
 }
 .yellowleftpic{
-    background: url(/img/rosewood_yellow_wine.jpg) center center/cover no-repeat;
+    background: url(/img/rosewood_yellow_wine\ -\ Copy.jpg) center center/cover no-repeat;
     flex: 1;
 }
 /* .yellowdrink{ 

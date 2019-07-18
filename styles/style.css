@@ -502,9 +502,43 @@ footer{
     width: 100%;
     height: 85vh;
     display: flex;
-    background: url(/img/2yellow_wine_glasses.jpg) center center/cover no-repeat;   
+    background: url(/img/manyglassesontable.jpg) center center/cover no-repeat;   
 }
 .loginform{
-    margin: auto auto;  
+    margin: auto auto;
+    
 }
+.login_title{
+    color: darkred;
+    font-size: 25px;
+    font-weight: bold;
+}
+.login_email, .login_password{
+    margin: 35px auto;
+}
+#email, #password{
+    background-color: #697275;
+    border: none;
+    padding: 11px;
+    margin-left: 2px;
+    opacity: 0.8;
+    color: black;
+ 
+}
+/* input icons */
+.input-icon{
+    position: relative; 
+    display: inline-block;
 
+
+}
+.input-icon i{
+    position: absolute; 
+    left: -30px; 
+    top: 0;
+    background-color: darkred;
+    padding: 10px;
+    opacity: 0.6;
+    color: whitesmoke;
+
+}

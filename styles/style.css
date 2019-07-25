@@ -219,11 +219,20 @@ nav{
        
 }
 
+
 .abouttitle{
     color: whitesmoke;
     text-align: center;
     font-weight: bold;
     font-size: 20px;
+    position: relative;
+    animation: abouttitle;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes abouttitle {
+    0% {top: -70px}
+    100% {top: 1px}
 }
 .aboutpara, .aboutpara2{
     color: whitesmoke;

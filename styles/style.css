@@ -112,6 +112,16 @@ nav{
     text-align: center;
     font-family: 'Lobster', cursive;
     font-size: 40px;
+    position: relative;
+    animation: landpara1;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+
+}
+@keyframes landpara1 {
+    0% {top: -150px}
+    100% {top: 10px}
+    
 
 }
 .landpagepara2 h2{
@@ -119,6 +129,15 @@ nav{
     text-align: center;
     font-family: 'Mountains of Christmas', cursive;
     font-size: 45px;
+    position: relative;
+    animation: landpara2;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+@keyframes landpara2 {
+    0% {left: -50px}
+    100% {left: 20px}
+    
 }
 .landscrollicon{
     color: white;

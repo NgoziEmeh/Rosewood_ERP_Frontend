@@ -227,7 +227,7 @@ nav{
     font-size: 20px;
     position: relative;
     animation: abouttitle;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-fill-mode: forwards;
 }
 @keyframes abouttitle {
@@ -239,6 +239,26 @@ nav{
     font-size: 18px;
     line-height: 1.5rem;
     text-align: center;
+}
+.aboutpara{
+    position: relative;
+    animation: aboutpara;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;  
+}
+@keyframes aboutpara {
+    0% {left: -70px}
+    100% {left: 1px}
+}
+.aboutpara2{
+    position: relative;
+    animation: aboutpara2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes aboutpara2 {
+    0% {right: -70px}
+    100% {right: 1px}
 }
 .btn{
     width: 17vw;
